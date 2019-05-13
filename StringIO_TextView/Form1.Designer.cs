@@ -1,6 +1,6 @@
 ﻿namespace StringIO_TextView
 {
-    partial class Form1
+    partial class 문자입출력
     {
         /// <summary>
         /// 필수 디자이너 변수입니다.
@@ -28,13 +28,48 @@
         /// </summary>
         private void InitializeComponent()
         {
-            this.components = new System.ComponentModel.Container();
+            System.ComponentModel.ComponentResourceManager resources = new System.ComponentModel.ComponentResourceManager(typeof(문자입출력));
+            this.txtEdit = new System.Windows.Forms.TextBox();
+            this.btnEdit = new System.Windows.Forms.Button();
+            this.lb1Result = new System.Windows.Forms.Label();
+            this.SuspendLayout();
+            // 
+            // txtEdit
+            // 
+            resources.ApplyResources(this.txtEdit, "txtEdit");
+            this.txtEdit.Name = "txtEdit";
+            // 
+            // btnEdit
+            // 
+            resources.ApplyResources(this.btnEdit, "btnEdit");
+            this.btnEdit.Name = "btnEdit";
+            this.btnEdit.UseVisualStyleBackColor = true;
+            // 
+            // lb1Result
+            // 
+            resources.ApplyResources(this.lb1Result, "lb1Result");
+            this.lb1Result.Name = "lb1Result";
+            // 
+            // 문자입출력
+            // 
+            resources.ApplyResources(this, "$this");
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
-            this.ClientSize = new System.Drawing.Size(800, 450);
-            this.Text = "Form1";
+            this.Controls.Add(this.lb1Result);
+            this.Controls.Add(this.btnEdit);
+            this.Controls.Add(this.txtEdit);
+            this.FormBorderStyle = System.Windows.Forms.FormBorderStyle.FixedSingle;
+            this.MaximizeBox = false;
+            this.Name = "문자입출력";
+            this.ResumeLayout(false);
+            this.PerformLayout();
+
         }
 
         #endregion
+
+        private System.Windows.Forms.TextBox txtEdit;
+        private System.Windows.Forms.Button btnEdit;
+        private System.Windows.Forms.Label lb1Result;
     }
 }
 

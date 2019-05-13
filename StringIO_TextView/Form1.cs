@@ -9,9 +9,9 @@ using System.Windows.Forms;
 
 namespace StringIO_TextView
 {
-    public partial class Form1 : Form
+    public partial class 문자입출력 : Form
     {
-        public Form1()
+        public 문자입출력()
         {
             InitializeComponent();
         }
