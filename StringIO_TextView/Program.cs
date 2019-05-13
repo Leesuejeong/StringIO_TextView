@@ -15,7 +15,7 @@ namespace StringIO_TextView
         {
             Application.EnableVisualStyles();
             Application.SetCompatibleTextRenderingDefault(false);
-            Application.Run(new 문자입출력());
+            Application.Run(new Form1());
         }
     }
 }

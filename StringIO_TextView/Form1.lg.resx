@@ -144,6 +144,6 @@
     <value>결과 : </value>
   </data>
   <data name="$this.Text" xml:space="preserve">
-    <value>문자입출력</value>
+    <value>문자열입출력</value>
   </data>
 </root>

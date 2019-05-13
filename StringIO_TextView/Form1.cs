@@ -9,11 +9,23 @@ using System.Windows.Forms;
 
 namespace StringIO_TextView
 {
-    public partial class 문자입출력 : Form
+    public partial class Form1 : Form
     {
-        public 문자입출력()
+        private string OrgStr;
+
+        public Form1()
         {
             InitializeComponent();
+        }
+
+        private void Form1_Load(object sender, EventArgs e)
+        {
+            this.OrgStr = this.lb1Result.Text;
+        }
+
+        private void btnEdit_Click(object sender, EventArgs e)
+        {
+            this.lb1Result.Text = this.OrgStr + this.txtEdit.Text;
         }
     }
 }
