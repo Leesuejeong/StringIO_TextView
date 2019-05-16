@@ -38,6 +38,7 @@
             // 
             resources.ApplyResources(this.txtEdit, "txtEdit");
             this.txtEdit.Name = "txtEdit";
+            this.txtEdit.KeyPress += new System.Windows.Forms.KeyPressEventHandler(this.txtEdit_KeyPress);
             // 
             // btnEdit
             // 

@@ -124,6 +124,10 @@
   <data name="btnEdit.Font" type="System.Drawing.Font, System.Drawing">
     <value>한컴 솔잎 M, 15pt</value>
   </data>
+  <assembly alias="System.Windows.Forms" name="System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089" />
+  <data name="btnEdit.ImeMode" type="System.Windows.Forms.ImeMode, System.Windows.Forms">
+    <value>NoControl</value>
+  </data>
   <data name="btnEdit.Size" type="System.Drawing.Size, System.Drawing">
     <value>333, 147</value>
   </data>
